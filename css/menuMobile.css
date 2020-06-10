@@ -1,0 +1,51 @@
+.btn-open{
+    display: block;
+    width: 40px;
+    float: right;
+    margin-top: -70px;
+    margin-right: 10px;
+}
+.btn-close{
+    margin-top: 18px;
+}
+.fa-bars, .fa-times{
+    font-size: 32px;
+    color: #457B9D;
+    cursor: pointer;
+}
+#conteudoMenu{
+    transition: all ease .5s;
+}
+.conteudo-menu{
+    background-color: #fff;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    z-index: 999;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: none;
+}
+.conteudo-menu > ul{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    list-style-type: none;
+}
+.conteudo-menu > ul > li > a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#457B9D;
+    
+}
+.conteudo-menu > ul > li{
+    padding: 12px 0;
+    border-bottom: 1px solid #00A896;
+}
+.open{
+    display: flex;
+    transition: all ease .5s;
+}
